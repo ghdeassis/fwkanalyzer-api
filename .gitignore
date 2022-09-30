@@ -1,0 +1,6 @@
+node_modules
+.idea
+data
+/.vscode/launch.json
+fwkanalyzer-api.log
+.env

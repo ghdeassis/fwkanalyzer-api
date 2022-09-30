@@ -1,0 +1,30 @@
+{
+  "name": "fwkanalyzer-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "@octokit/plugin-retry": "^3.0.9",
+    "@octokit/plugin-throttling": "^3.5.2",
+    "@octokit/rest": "^18.12.0",
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "espree": "^9.3.0",
+    "express": "^4.18.1",
+    "gitlog": "^4.0.4",
+    "nodegit": "^0.27.0",
+    "simple-git": "^3.4.0",
+    "winston": "^3.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.0"
+  }
+}
